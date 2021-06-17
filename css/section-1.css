@@ -65,6 +65,15 @@
   align-items: center;
 }
 
+.top-1-img {
+  width: 100%;
+  text-align: right;
+}
+
+.top-1-img img {
+  width: 70%;
+}
+
 @media (max-width: 512px) {
   .top-1-left {
     width: auto;

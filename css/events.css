@@ -1,3 +1,81 @@
 #events {
   padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#events-container .events-row {
+  width: 100%;
+}
+
+.events-row {
+  margin: 32px 0;
+}
+
+.event {
+  flex: 1;
+}
+
+.event-con {
+  margin: 0 32px;
+}
+
+.event-img {
+  height: 400px;
+}
+
+.event img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px 12px 12px 0px;
+    box-shadow: rgb(50 50 50 / 10%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 6px 16px;
+}
+
+.event-desc {
+  padding-top: 32px;
+  padding-bottom: 4px;
+}
+
+.event-desc p {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.008em;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(42, 48, 57);
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: auto;
+  max-height: 3.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0.9;
+}
+
+.event-link {
+  margin-top: -16px;
+}
+
+.event-link a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-bostonblue);
+  transition: margin 0.3s;
+}
+
+.event-link a:after {
+  content: "→";
+  margin-left: 8px;
+  transition: color 0.1s ease-in 0s, transform 0.25s ease-in-out 0s;
+  font-size: 32px;
+}
+
+.event-link a:hover {
+  color: var(--color-denim--dark);
+  margin-left: 4px;
 }

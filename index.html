@@ -48,6 +48,18 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script defer src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script defer src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+  <script defer src="js/firebase-config.js"></script>
+
+  <!-- Custom scripts -->
+  <script src="js/events.js"></script>
 </head>
 
 <body>
@@ -98,7 +110,9 @@
           </div>
         </div>
         <div class="top-1-right">
-          Some SVG
+          <div class="top-1-img">
+            <img src="images/section1.svg">
+          </div>
         </div>
       </div>
       <div id="top-1-pattern">
@@ -132,9 +146,14 @@
     <section id="events">
       <div class="con-1">
         <div class="heading">
-          <h1 class="heading-36">Events</h1>
+          <h2 class="heading-36"> Past events organized </h2>
+          <p>See how E-Cell organized a pool of events</p>
         </div>
-      </div>
+        <!-- Events added by Firebase -->
+        <div id="events-container" class="content"></div>
+        <div class="section-end">
+          <button tabindex="0" class="btn-outlined">All past events</button>
+        </div>
     </section>
 
     <!-- TODO -->
@@ -145,6 +164,7 @@
       Footer
     </div>
   </footer>
+
 </body>
 
 </html>

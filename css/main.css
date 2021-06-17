@@ -112,9 +112,21 @@ section {
   position: relative;
 }
 
+.section-end {
+  text-align: center;
+}
+
 .heading {
   text-align: center;
-  margin: auto;
+  margin: 0 auto 56px auto;
+}
+
+.heading p {
+  margin-top: -16px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: rgb(70, 78, 91);
 }
 
 .con-1 {
