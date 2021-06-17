@@ -43,6 +43,7 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/section-1.css">
   <link rel="stylesheet" href="css/events.css">
+  <link rel="stylesheet" href="css/contact.css">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
@@ -74,15 +75,15 @@
             <ul>
               <li tabindex="0"><a class="nav-link">Team</a></li>
               <li tabindex="0"><a class="nav-link">Leaderboard</a></li>
-              <li tabindex="0"><a class="nav-link">Contact us</a>
+              <li tabindex="0"><a href="#contact" class="nav-link">Contact us</a>
             </ul>
           </div>
           <div class="header-right right">
             <div>
-              <button tabindex="0" class="btn">Events</button>
+              <a href="#events" tabindex="0" class="btn">Events</a>
             </div>
             <div>
-              <button tabindex="0" class="btn-outlined">Get started</button>
+              <a tabindex="0" class="btn-outlined">Get started</a>
             </div>
           </div>
         </div>
@@ -159,12 +160,47 @@
     <!-- TODO -->
   </main>
 
+
+  <section id="contact">
+    <div class="contact-pattern">
+      <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 280">
+        <g fill="#fff" fill-rule="nonzero">
+          <path
+            d="M1919.999998 0v29.7237781c-223.98059 145.4796669-526.68468 188.5528329-908.11226 129.2194999C630.460153 99.609945 293.299854 122.962185.406838 229V0h1919.59316z">
+          </path>
+        </g>
+      </svg>
+    </div>
+    <div class="con-1">
+      <div class="quote-box">
+        <div class="flex-c">
+          <div class="quote-img">
+            <img src="images/amol.png">
+          </div>
+          <div class="heading">
+            <h3>Amol Agarwal</h3>
+          </div>
+          <div class="contact-details">
+            <p class="details">
+              Here we will probably add some quote here. This is a very good quote by let's say Amol sir.</p>
+          </div>
+        </div>
+        <div class="quote-box-g"></div>
+      </div>
+    </div>
+  </section>
+
   <footer>
     <div class="con-1">
       Footer
     </div>
   </footer>
 
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      fetchDataFromFirebase();
+    });
+  </script>
 </body>
 
 </html>

@@ -67,7 +67,3 @@ fetchDataFromFirebase = () => {
       console.log("Event fetch error", err);
     });
 }
-
-window.addEventListener('DOMContentLoaded', (event) => {
-  fetchDataFromFirebase();
-});

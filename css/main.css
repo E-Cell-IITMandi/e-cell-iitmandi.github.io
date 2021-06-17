@@ -52,7 +52,7 @@ html {
   margin-top: auto;
 }
 
-button {
+button, .btn, .btn-outlined {
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
@@ -74,7 +74,7 @@ button {
   border-radius: 25px;
 }
 
-button:hover {
+button:hover, .btn:hover, .btn-outlined:hover {
   transform: translateY(-3px);
 }
 
@@ -119,6 +119,11 @@ section {
 .heading {
   text-align: center;
   margin: 0 auto 56px auto;
+  letter-spacing: 0.023em;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(42, 48, 57);
+  line-height: 1.6;
 }
 
 .heading p {
@@ -133,6 +138,18 @@ section {
   width: 100%;
   margin: 0px auto;
   max-width: 1148px;
+}
+
+.small-box {
+  margin: auto;
+  max-width: 600px;
+}
+
+.details {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: rgb(70, 78, 91);
 }
 
 @media (max-width: 1148px) {
