@@ -1,0 +1,141 @@
+:root {
+  --gradient-blue: linear-gradient(90deg,#3072be 0%,#5b9fef);
+  --gradient-case-study: linear-gradient(90deg,#f76b1c 0%,#fad961);
+  --gradient-project: linear-gradient(90deg,#64c5d1 0%,#62dba6);
+  --gradient-premier: linear-gradient(90deg,#3023ae 0%,#c86dd7);
+  --gradient-pro: linear-gradient(90deg,#fad961 0%,#f76b1c);
+  --gradient-power: linear-gradient(90deg,#64c5d1 0%,#62dba6);
+  --gradient-strategic: linear-gradient(90deg,#4a90e2 0%,#173757);
+  --gradient-dark: linear-gradient(90deg,#18334f 0%,#192532);
+  --color-white: #fff;
+  --color-denim--lightest: #5b9fef;
+  --color-denim--light: #4a90e2;
+  --color-denim: #3c80cf;
+  --color-denim--dark: #3072be;
+  --color-jade--lightest: #14d997;
+  --color-jade--light: #19cd91;
+  --color-jade: #0eb87f;
+  --color-jade--dark: #0baa75;
+  --color-burntsienna: #ed5c68;
+  --color-cabaret: #d4465f;
+  --color-dandelion: #ffd860;
+  --color-bostonblue: #318bc5;
+  --color-pictonblue: #3ab2e6;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.flex-c {
+  display: flex;
+  flex-flow: column;
+}
+
+.down {
+  margin-top: auto;
+}
+
+button {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  user-select: none;
+  font-size: 16px;
+  height: 41px;
+  line-height: 39px;
+  text-decoration: none;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-weight: 600;
+  transition: transform 0.4s ease 0s, background-color, border-color, background, color;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--color-denim);
+  border-image: initial;
+  border-radius: 25px;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  background: var(--color-denim);
+}
+     
+.btn:hover {
+  background: var(--color-denim--dark);
+}
+
+.btn-outlined {
+  color: var(--color-denim);
+  background: transparent;
+}
+
+.heading-36 {
+  font-size: 36px;
+}
+
+.heading-56 {
+  font-size: 56px;
+}
+
+.content {
+  padding: 32px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+section {
+  position: relative;
+}
+
+.heading {
+  text-align: center;
+  margin: auto;
+}
+
+.con-1 {
+  width: 100%;
+  margin: 0px auto;
+  max-width: 1148px;
+}
+
+@media (max-width: 1148px) {
+  .con-1 {
+    margin: 0 12px;
+    width: auto;
+  }
+}
+
+@media (max-width: 512px) {
+  .flex {
+    flex-flow: column;
+  }
+
+  .right {
+    margin: auto;
+  }
+}
