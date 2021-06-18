@@ -43,24 +43,14 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/section-1.css">
   <link rel="stylesheet" href="css/events.css">
-  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/footer.css">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="https://kit.fontawesome.com/33e1de8163.js" crossorigin="anonymous"></script>
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
-
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script defer src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
-  <script defer src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
-
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-      https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script defer src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
-  <script defer src="js/firebase-config.js"></script>
-
-  <!-- Custom scripts -->
-  <script src="js/events.js"></script>
 </head>
 
 <body>
@@ -73,17 +63,17 @@
         <div id="header-menu" class="flex">
           <div class="header-left">
             <ul>
-              <li tabindex="0"><a href="team.html" class="nav-link">Team</a></li>
-              <li tabindex="0"><a href="leaderboard.html" class="nav-link">Leaderboard</a></li>
-              <li tabindex="0"><a href="/#contact" class="nav-link">Contact us</a>
+              <li tabindex="0"><a class="nav-link">Team</a></li>
+              <li tabindex="0"><a class="nav-link">Leaderboard</a></li>
+              <li tabindex="0"><a class="nav-link">Contact us</a>
             </ul>
           </div>
           <div class="header-right right">
             <div>
-              <a href="#events" tabindex="0" class="btn">Events</a>
+              <button tabindex="0" class="btn">Events</button>
             </div>
             <div>
-              <a tabindex="0" class="btn-outlined">Get started</a>
+              <button tabindex="0" class="btn-outlined">Get started</button>
             </div>
           </div>
         </div>
@@ -111,9 +101,7 @@
           </div>
         </div>
         <div class="top-1-right">
-          <div class="top-1-img">
-            <img src="images/section1.svg">
-          </div>
+          Some SVG
         </div>
       </div>
       <div id="top-1-pattern">
@@ -147,60 +135,71 @@
     <section id="events">
       <div class="con-1">
         <div class="heading">
-          <h2 class="heading-36"> Past events organized </h2>
-          <p>See how E-Cell organized a pool of events</p>
+          <h1 class="heading-36">Events</h1>
         </div>
-        <!-- Events added by Firebase -->
-        <div id="events-container" class="content"></div>
-        <div class="section-end">
-          <a href="contests/" tabindex="0" class="btn-outlined">All past events</a>
-        </div>
+      </div>
     </section>
 
     <!-- TODO -->
   </main>
 
-
-  <section id="contact">
-    <div class="contact-pattern">
-      <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 280">
-        <g fill="#fff" fill-rule="nonzero">
-          <path
-            d="M1919.999998 0v29.7237781c-223.98059 145.4796669-526.68468 188.5528329-908.11226 129.2194999C630.460153 99.609945 293.299854 122.962185.406838 229V0h1919.59316z">
-          </path>
-        </g>
-      </svg>
-    </div>
-    <div class="con-1">
-      <div class="quote-box">
-        <div class="flex-c">
-          <div class="quote-img">
-            <img src="images/amol.png">
-          </div>
-          <div class="heading">
-            <h3>Amol Agarwal</h3>
-          </div>
-          <div class="contact-details">
-            <p class="details">
-              Here we will probably add some quote here. This is a very good quote by let's say Amol sir.</p>
-          </div>
+  <footer>
+    <div class="footer flex">
+      <div class="col-3 flex-c footer-logo">
+        <img src="images/ecell.png">
+        <p>edc@students.iitmandi.ac.in</p>
+        <p><b>IIT Mandi, Kamand,<br>Himachal Pradesh</b></p>
+      </div>
+      <div class="col-3 flex-c">
+        <div class="footer-inner-title">
+          Sitemap
         </div>
-        <div class="quote-box-g"></div>
+        <div class="footer-inner-content">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Leaderboard</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3 flex-c">
+        <div class="footer-inner-title">
+          Social Media links
+        </div>
+        <div class="footer-social-media">
+          <ul>
+            <li>
+              <i class="fab fa-facebook-f"></i>
+              <p>Facebook</p>
+            </li>
+            <li style="background-color: #318bc5">
+              <i class="fab fa-instagram" style="color: white"></i>
+              <p>Instagram</p>
+            </li>
+            <li>
+              <i class="fab fa-linkedin-in"></i>
+              <p>Linkedin</p>
+            </li>
+            <li>
+              <i class="fab fa-youtube"></i>
+              <p>YouTube</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3 flex-c">
+        <div class="footer-inner-title">
+          News Letter
+        </div>
+        <div class="footer-inner-content">
+          <p>E-Cell is a holographic abbreviation adopted by the entrepreneurship club of IIT Mandi.</p>
+          <input type="text" name="text" placeholder="Enter your Email">
+          <button class="footer-button">Subscribe</button>
+        </div>
       </div>
     </div>
-  </section>
-
-  <footer>
-    <div class="con-1">
-      Footer
-    </div>
   </footer>
-
-  <script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-      fetchDataFromFirebase();
-    });
-  </script>
 </body>
 
 </html>
