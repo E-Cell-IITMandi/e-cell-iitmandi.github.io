@@ -8,6 +8,7 @@
   --gradient-strategic: linear-gradient(90deg,#4a90e2 0%,#173757);
   --gradient-dark: linear-gradient(90deg,#18334f 0%,#192532);
   --color-white: #fff;
+  --color-grey: #f0f0f0;
   --color-denim--lightest: #5b9fef;
   --color-denim--light: #4a90e2;
   --color-denim: #3c80cf;
@@ -52,7 +53,7 @@ html {
   margin-top: auto;
 }
 
-button, .btn, .btn-outlined {
+button {
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
@@ -74,7 +75,7 @@ button, .btn, .btn-outlined {
   border-radius: 25px;
 }
 
-button:hover, .btn:hover, .btn-outlined:hover {
+button:hover {
   transform: translateY(-3px);
 }
 
@@ -112,44 +113,15 @@ section {
   position: relative;
 }
 
-.section-end {
-  text-align: center;
-}
-
 .heading {
   text-align: center;
-  margin: 0 auto 56px auto;
-  letter-spacing: 0.023em;
-  margin: 0px;
-  padding: 0px;
-  color: rgb(42, 48, 57);
-  line-height: 1.6;
-}
-
-.heading p {
-  margin-top: -16px;
-  font-size: 16px;
-  line-height: 1.6;
-  font-weight: 400;
-  color: rgb(70, 78, 91);
+  margin: auto;
 }
 
 .con-1 {
   width: 100%;
   margin: 0px auto;
   max-width: 1148px;
-}
-
-.small-box {
-  margin: auto;
-  max-width: 600px;
-}
-
-.details {
-  font-size: 16px;
-  line-height: 1.6;
-  font-weight: 400;
-  color: rgb(70, 78, 91);
 }
 
 @media (max-width: 1148px) {
