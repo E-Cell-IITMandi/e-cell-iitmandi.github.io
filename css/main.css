@@ -8,6 +8,7 @@
   --gradient-strategic: linear-gradient(90deg,#4a90e2 0%,#173757);
   --gradient-dark: linear-gradient(90deg,#18334f 0%,#192532);
   --color-white: #fff;
+  --color-grey: #f0f0f0;
   --color-denim--lightest: #5b9fef;
   --color-denim--light: #4a90e2;
   --color-denim: #3c80cf;
@@ -140,6 +141,12 @@ section {
   max-width: 1148px;
 }
 
+.con-2 {
+  width: 100%;
+  margin: 0px auto;
+  max-width: 1448px;
+}
+
 .small-box {
   margin: auto;
   max-width: 600px;
@@ -153,7 +160,7 @@ section {
 }
 
 @media (max-width: 1148px) {
-  .con-1 {
+  .con-1, .con-2 {
     margin: 0 12px;
     width: auto;
   }
