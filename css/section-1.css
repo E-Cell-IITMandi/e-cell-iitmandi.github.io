@@ -54,7 +54,7 @@
   padding: 24px 4px 40px 0;
 }
 
-.top-1-buttons button {
+.top-1-buttons button, .top-1-buttons a {
   margin-right: 12px;
 }
 
@@ -76,7 +76,19 @@
 
 @media (max-width: 512px) {
   .top-1-left {
+    text-align: center;
+  }
+
+  .top-1-left {
     width: auto;
     max-width: none;
+  }
+
+  .top-1-buttons {
+    justify-content: center;
+  }
+
+  .top-1-img {
+    text-align: center;
   }
 }

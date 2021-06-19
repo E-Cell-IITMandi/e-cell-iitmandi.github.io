@@ -16,10 +16,22 @@ header {
   z-index: 100;
   flex: 1;
   font-size: 16px;
+  z-index: 98;
+  transition: transform 0.4s;
+}
+
+#icon-toggle {
+  display: flex;
+  z-index: 100;
+}
+
+#mobile-toggle {
+  display: none;
 }
 
 #logo {
   display: flex;
+  z-index: 100;
 }
 
 #logo img {
@@ -78,7 +90,52 @@ header {
   margin: auto 4px auto 14px;
 }
 
-@media (max-width: 512px) {
+@media (max-width: 996px) {
+  .header-left ul {
+    display: flex;
+    text-align: center;
+    padding: 0;
+    flex-flow: column;
+  }
+
+  #icon-toggle {
+    width: 100%;
+  }
+
+  #mobile-toggle {
+    display: flex;
+    margin-left: auto;
+  }
+
+  #mobile-toggle-btn {
+    margin: auto;
+    padding: 8px;
+  }
+
+  #header-menu {
+    padding: 0 0 12px 0;
+    background: white;
+    margin-bottom: 24px;
+    transform: translateY(-500px);
+    position: fixed;
+    width: 100%;
+    top: 82px;
+    left: 0;
+  }
+
+  #mobile-toggle-btn button {
+    border-radius: 4px;
+    font-size: 20px;
+  }
+
+  .menu-show {
+    transform: translateY(0) !important;
+  }
+
+  #logo img {
+    margin: 8px 4px;
+  }
+
   .header-right div {
     margin: 4px;
   }

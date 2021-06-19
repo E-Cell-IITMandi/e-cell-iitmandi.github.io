@@ -34,3 +34,9 @@
 .col-12{
   width: 100%;
 }
+
+@media (max-width: 512px) {
+	.col-3 {
+		width: auto;
+	}
+}
