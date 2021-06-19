@@ -62,17 +62,22 @@
   <script defer src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
   <script defer src="js/firebase-config.js"></script>
 
-  <!-- Custom scripts -->
-  <script src="js/events.js"></script>
 </head>
 
 <body>
   <header>
     <div class="con-1">
       <div class="flex">
-        <a tabindex="0" href="/" id="logo">
-          <img src="images/ecell.png">
-        </a>
+        <div id="icon-toggle">
+          <a tabindex="0" href="/" id="logo">
+            <img src="images/ecell.png">
+          </a>
+          <div id="mobile-toggle">
+            <div id="mobile-toggle-btn">
+              <button class="btn-outlined"><i id="mobile-toggle-icon" class="fas fa-bars"></i></button>
+            </div>
+          </div>
+        </div>
         <div id="header-menu" class="flex">
           <div class="header-left">
             <ul>
@@ -109,7 +114,7 @@
             "business" of reaching the society.
           </div>
           <div class="top-1-buttons">
-            <button tabindex="0" class="btn">Events</button>
+            <a href="#events" tabindex="0" class="btn">Events</a>
             <button tabindex="0" class="btn-outlined">Get started</button>
           </div>
         </div>
@@ -194,7 +199,7 @@
   </section>
 
   <footer>
-    <div class="con-2 footer flex">
+    <div class="footer con-2 flex">
       <div class="col-3 flex-c footer-logo">
         <img src="images/ecell.png">
         <p>edc@students.iitmandi.ac.in</p>
@@ -251,11 +256,16 @@
     </div>
   </footer>
 
+  <!-- Custom scripts -->
+  <script src="js/events.js"></script>
+  <script src="js/main.js"></script>
+
   <script>
     window.addEventListener('DOMContentLoaded', (event) => {
       fetchDataFromFirebase();
     });
   </script>
+
 </body>
 
 </html>

@@ -3,6 +3,7 @@
   width: 100%;
   margin: 0px auto;
   padding: 40px 0;
+  overflow-x: hidden;
 }
 
 .footer-logo {
@@ -103,4 +104,16 @@
 	color: #fff;
 	font-size: 20px;
 	font-weight: 100;
+}
+
+@media (max-width: 512px) {
+	.footer {
+		margin: 0 24px;
+		width: auto;
+	}
+
+	.footer-inner-title {
+		margin-top: 24px;
+		margin-bottom: 16px;
+	}
 }

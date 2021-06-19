@@ -79,3 +79,21 @@
   color: var(--color-denim--dark);
   margin-left: 4px;
 }
+
+@media (max-width: 512px) {
+  #events-container {
+    padding: 0;
+  }
+
+  .events-row {
+    margin: 0;
+  }
+
+  .event-desc {
+    padding-top: 18px;
+  }
+
+  .event {
+    padding-bottom: 24px;
+  }
+}
