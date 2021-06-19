@@ -40,15 +40,18 @@
 
   <!-- Stylesheets here -->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/section-1.css">
   <link rel="stylesheet" href="css/events.css">
   <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/footer.css">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
+  <script src="https://kit.fontawesome.com/33e1de8163.js" crossorigin="anonymous"></script>
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script defer src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
@@ -191,8 +194,60 @@
   </section>
 
   <footer>
-    <div class="con-1">
-      Footer
+    <div class="con-2 footer flex">
+      <div class="col-3 flex-c footer-logo">
+        <img src="images/ecell.png">
+        <p>edc@students.iitmandi.ac.in</p>
+        <p><b>IIT Mandi, Kamand,<br>Himachal Pradesh</b></p>
+      </div>
+      <div class="col-3 flex-c">
+        <div class="footer-inner-title">
+          Sitemap
+        </div>
+        <div class="footer-inner-content">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/team.html">Team</a></li>
+            <li><a href="/leaderboard.html">Leaderboard</a></li>
+            <li><a href="/#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3 flex-c">
+        <div class="footer-inner-title">
+          Social Media links
+        </div>
+        <div class="footer-social-media">
+          <ul>
+            <li>
+              <i class="fab fa-facebook-f"></i>
+              <p>Facebook</p>
+            </li>
+            <li>
+              <i class="fab fa-instagram"></i>
+              <p>Instagram</p>
+            </li>
+            <li>
+              <i class="fab fa-linkedin-in"></i>
+              <p>Linkedin</p>
+            </li>
+            <li>
+              <i class="fab fa-youtube"></i>
+              <p>YouTube</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3 flex-c">
+        <div class="footer-inner-title">
+          News Letter
+        </div>
+        <div class="footer-inner-content">
+          <p>E-Cell is a holographic abbreviation adopted by the entrepreneurship club of IIT Mandi.</p>
+          <input type="text" name="text" placeholder="Enter your Email">
+          <button class="footer-button">Subscribe</button>
+        </div>
+      </div>
     </div>
   </footer>
 
