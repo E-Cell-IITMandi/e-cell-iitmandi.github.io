@@ -158,6 +158,35 @@ section {
   font-weight: 400;
   color: rgb(70, 78, 91);
 }
+.header {
+  position: relative;
+  margin-bottom: 50px;
+  font: 800 50px/69px  'Open Sans', sans-serif;
+  margin: 20px 0 15px;
+}
+.header:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  border-radius: 7px;
+  position: static;
+  margin-top: 30px;
+  background: linear-gradient(90deg,#9f8fff 100%,#7b68ee 0);
+}
+.subheader {
+  color: #7b68ee;
+  font: 800 10px/12px Axiforma,Arial,serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.Description {
+  color: #7c828d;
+  font: 400 14px/25px 'Open Sans', sans-serif;
+  text-align: left;
+}
 
 @media (max-width: 1148px) {
   .con-1, .con-2 {
@@ -175,3 +204,4 @@ section {
     margin: auto;
   }
 }
+
