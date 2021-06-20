@@ -1,11 +1,122 @@
 #about {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 #about-part-1 {
-    flex: 1;
+  flex: 1;
 }
 
 #about-part-2 {
-    flex: 1;
+  flex: 1;
+}
+
+/* -------------------------------------   column-1 -------------------------------------*/
+#about-part-1 {
+  background: #f8f9fb;
+  margin-right: 2rem;
+  padding: 0.5rem;
+}
+.span-des {
+  font-weight: bold;
+  color: #bdbfc7;
+}
+.flex-box-1 {
+  display: flex;
+  margin: 1rem 0;
+  border-left: solid 5px #9f28f3;
+}
+.flex-box-2 {
+  display: flex;
+  border-left: solid 5px #ff4ab7;
+  margin: 1rem 0;
+}
+.flex-box-3 {
+  display: flex;
+  border-left: solid 5px #00d2fc;
+  margin: 1rem 0;
+}
+.flex-box-4 {
+  display: flex;
+  margin: 1rem 0;
+  border-left: solid 5px #fed90e;
+}
+.commanp {
+  background: #ffffff;
+  padding: 0.5rem;
+  margin: 0;
+  color: #2a2d35;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 1rem 0.1rem;
+  box-shadow: 20px 20px 20px #e3e6e9;
+  border-radius: 3%;
+}
+
+.p1 {
+  color: #9f28f3;
+
+  margin: 0;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.special-border {
+  padding: 10px;
+  border: dotted 5px #f1f0f1;
+}
+.p2 {
+  color: #ff4ab7;
+
+  margin: 0;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.p3 {
+  color: #00d2fc;
+  margin: 0;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.p4 {
+  color: #fed90e;
+  margin: 0;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.extracss {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* -------------------------------------   column-2 -------------------------------------*/
+.who {
+  color: #b35efe;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+#about-part-2 h1 {
+  color: #292c34;
+  font-size: 3.5rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+#about-part-2 h1::after {
+  content: "";
+  width: 100%;
+  background-color: #b35efe;
+  display: block;
+  width: 20%;
+  height: 0.3rem;
+  margin: 3rem 0;
+}
+.col2_description {
+  color: #999da7;
+  line-height: 2;
+  font-weight: 600;
 }
