@@ -2,7 +2,13 @@
   padding: 80px 0;
 }
 
+#about-us {
+  padding-top: 32px;
+}
+
 #about-part-1 {
+  margin-right: 2rem;
+  padding: 1rem 0.5rem;
   flex: 1;
 }
 
@@ -11,11 +17,7 @@
 }
 
 /* -------------------------------------   column-1 -------------------------------------*/
-#about-part-1 {
-  background: #f8f9fb;
-  margin-right: 2rem;
-  padding: 0.5rem;
-}
+
 .span-des {
   font-weight: bold;
   color: #bdbfc7;
@@ -95,7 +97,7 @@
 
 /* -------------------------------------   column-2 -------------------------------------*/
 .who {
-  color: #b35efe;
+  color: var(--color-bostonblue);
   font-size: 1rem;
   font-weight: bolder;
 }
@@ -109,12 +111,13 @@
 #about-part-2 h1::after {
   content: "";
   width: 100%;
-  background-color: #b35efe;
+  background: linear-gradient(90deg, var(--color-bostonblue) 100%, var(--color-denim--lightest) 0);;
   display: block;
   width: 20%;
   height: 0.3rem;
-  margin: 3rem 0;
+  margin: 1rem 0 2rem;
 }
+
 .col2_description {
   color: #999da7;
   line-height: 2;
