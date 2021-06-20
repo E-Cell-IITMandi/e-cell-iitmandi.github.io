@@ -84,6 +84,7 @@
   -ms-transform: scale(1.8);
   -webkit-transform: scale(1.8);
   background: -webkit-linear-gradient(45deg, var(--color-denim), #c648c8);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
@@ -98,4 +99,4 @@
     width: 100%;
 }
 }
-/* CSS Ended for Section */
+/* Ended CSS for this section */
