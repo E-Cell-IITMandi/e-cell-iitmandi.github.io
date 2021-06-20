@@ -1,0 +1,11 @@
+#about {
+    padding: 80px 0;
+}
+
+#about-part-1 {
+    flex: 1;
+}
+
+#about-part-2 {
+    flex: 1;
+}
