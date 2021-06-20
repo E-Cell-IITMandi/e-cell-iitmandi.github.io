@@ -31,6 +31,30 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+ol {
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+  padding-left: 50px;
+  color:rgb(70, 78, 91);
+  text-shadow: 0 0 20px var(--color-denim--lightest);
+}
+
+ol li:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+
+ol li {
+  margin-top: 10px;
+  box-shadow: 0 0 30px #3ab2e6;
+  border-radius: 50px;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid var(--color-bostonblue);
+}
+
 .w-100 {
   width: 100%;
 }
