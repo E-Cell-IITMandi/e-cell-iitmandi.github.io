@@ -1,0 +1,102 @@
+coordinators:
+  1:
+    name: Parshva Jain
+    img: '/images/team/Parshva.jpg'
+    fb: 'https://www.facebook.com/parshva.jain.96'
+    linkedin: 'https://www.linkedin.com/in/parshvajain25/'
+  2:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  3:
+    name: Sahas Goyal
+    img : '/images/team/'
+    fb: 'https://www.facebook.com/sahas.goyal/sahas.jpeg'
+    linkedin: 'https://www.linkedin.com/in/sahas-goyal-ab051919b/'
+
+core:
+  1:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  2:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  3:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  4:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  5:
+    name: Priyam Seth
+    img : '/images/team/priyam.jpeg'
+    fb: 'https://facebook.com/priyam.seth.336'
+    linkedin: 'https://linkedin.com/in/priyam-seth-64b61b159'
+  6:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  7:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  8:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  9:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  10:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  11:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  12:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+
+mentors:
+  1:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  2:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+  3:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
+
+fa:
+  1:
+    name: Khyati Agarwal
+    img : '/images/team/khyati.png'
+    fb: 'https://www.facebook.com/khyati.agarwal1'
+    linkedin: 'https://www.linkedin.com/in/khyati-agarwal-29913116b/'
