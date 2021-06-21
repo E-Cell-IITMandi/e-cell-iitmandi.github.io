@@ -163,27 +163,27 @@
         <div id="about-us" class="flex">
           <div id="about-part-1">
             <span class="span-des">SOME THINGS ABOUT US</span>
-            <div class="flex-box">
+            <div class="about-us-list-item">
               <span class="special-border">01</span>
               <p class="commanp extracss">Goals are the top most priority.</p>
             </div>
 
-            <div class="flex-box">
+            <div class="about-us-list-item">
               <span class="special-border">02</span>
               <p class="commanp extracss">Change how the world works.</p>
             </div>
 
-            <div class="flex-box">
+            <div class="about-us-list-item">
               <span class="special-border">03</span>
               <p class="commanp extracss">Follow your passion.</p>
             </div>
 
-            <div class="flex-box">
+            <div class="about-us-list-item">
               <span class="special-border">04</span>
               <p class="commanp extracss">Create a community we all love.</p>
             </div>
 
-            <div class="flex-box">
+            <div class="about-us-list-item">
               <span class="special-border">05</span>
               <p class="commanp extracss">Help others reach their goal.</p>
             </div>
@@ -316,16 +316,15 @@
       fetchDataFromFirebase();
     });
     //The following list contains the colors used in the numbering and decoraion in the rows.
-    //[red, light red], [blue, light blue], [yellow, light yellow], [pink, light pink], [green, light green] colors respectively
-    var c = [["#fc3a3a", "#eb6363"], ["#5562d9", "#959de8"], ["#facc00", "#ffe77a"], ["#ff96ff", "#ffbdff"], ["#55b837", "#73d955"]];
+    //[red, blue, golden yellow, pink, green] colors respectively
+    var c = ["#fc3a3a", "#5562d9", "#facc00", "#ff96ff", "#55b837"];
 
-    //Following lists contain the elements with classes flex-box and special-border respectively
-    var fb = document.getElementsByClassName("flex-box");
+    //Following lists contain the elements with classes about-us-list-item and special-border respectively
+    var fb = document.getElementsByClassName("about-us-list-item");
     var sb = document.getElementsByClassName("special-border");
 
     for (var i = 0; i < fb.length; i++) {
-      fb[i].style.borderLeftColor = sb[i].style.color = c[i % c.length][0]; //change the font color and left border color
-      sb[i].style.borderColor = c[i % c.length][1]; //change the border color of the decoration around the number
+      fb[i].style.borderLeftColor = sb[i].style.color = c[i % c.length]; //change the font color and left border color
     }
   </script>
 
