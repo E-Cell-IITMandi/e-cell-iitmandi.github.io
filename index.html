@@ -162,25 +162,31 @@
         <!-- Here add two coln-->
         <div id="about-us" class="flex">
           <div id="about-part-1">
-            <!-- Add Column 1 here / TODO -->
-            <span class="span-des">SOME THINGS ABOUT Us</span>
-            <div class="flex-box-1">
-              <p class="p1 commanp"><span class="special-border">01</span></p>
+            <span class="span-des">SOME THINGS ABOUT US</span>
+            <div class="flex-box">
+              <span class="special-border">01</span>
               <p class="commanp extracss">Goals are the top most priority.</p>
             </div>
-            <div class="flex-box-2">
-              <p class="p2 commanp"><span class="special-border">02</span></p>
+
+            <div class="flex-box">
+              <span class="special-border">02</span>
               <p class="commanp extracss">Change how the world works.</p>
             </div>
-            <div class="flex-box-3">
-              <p class="p3 commanp"><span class="special-border">03</span></p>
-              <p class="commanp extracss">Follow your passion</p>
+
+            <div class="flex-box">
+              <span class="special-border">03</span>
+              <p class="commanp extracss">Follow your passion.</p>
             </div>
-            <div class="flex-box-4">
-              <p class="p4 commanp"><span class="special-border">04</span></p>
+
+            <div class="flex-box">
+              <span class="special-border">04</span>
               <p class="commanp extracss">Create a community we all love.</p>
             </div>
 
+            <div class="flex-box">
+              <span class="special-border">05</span>
+              <p class="commanp extracss">Help others reach their goal.</p>
+            </div>
           </div>
           <div id="about-part-2">
             <!-- Add column 2 here / TODO -->
@@ -190,7 +196,7 @@
               life to the next level
               and work for an extremely fast growing tech company in sunny San Diego. Our employees embrace challenges,
               have ambition, own responsibility, and drive their own development.
-            Write some more description here</p>
+              Write some more description here</p>
           </div>
         </div>
       </div>
@@ -309,6 +315,18 @@
     window.addEventListener('DOMContentLoaded', (event) => {
       fetchDataFromFirebase();
     });
+    //The following list contains the colors used in the numbering and decoraion in the rows.
+    //[red, light red], [blue, light blue], [yellow, light yellow], [pink, light pink], [green, light green] colors respectively
+    var c = [["#fc3a3a", "#eb6363"], ["#5562d9", "#959de8"], ["#facc00", "#ffe77a"], ["#ff96ff", "#ffbdff"], ["#55b837", "#73d955"]];
+
+    //Following lists contain the elements with classes flex-box and special-border respectively
+    var fb = document.getElementsByClassName("flex-box");
+    var sb = document.getElementsByClassName("special-border");
+
+    for (var i = 0; i < fb.length; i++) {
+      fb[i].style.borderLeftColor = sb[i].style.color = c[i % c.length][0]; //change the font color and left border color
+      sb[i].style.borderColor = c[i % c.length][1]; //change the border color of the decoration around the number
+    }
   </script>
 
 </body>
