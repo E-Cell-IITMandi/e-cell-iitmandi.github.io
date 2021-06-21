@@ -36,12 +36,12 @@ for (pos in data) {
             {
               var img = document.createElement("img");
               img.className = "person_photo";
-              img.src = data[pos][names[0]]['img'];//to be changed
+              img.src = data[pos][names[i]]['img'];//to be changed
               person_details.appendChild(img);
 
               var per_name = document.createElement("p");
               per_name.className = "person_name";
-              var text = document.createTextNode(data[pos][names[0]]['name']);
+              var text = document.createTextNode(data[pos][names[i]]['name']);
               per_name.appendChild(text);
               person_details.appendChild(per_name);
 
@@ -51,7 +51,7 @@ for (pos in data) {
                 var facebook_li = document.createElement("li");
                 {
                   var facebook_link = document.createElement("a");
-                  facebook_link.href = data[pos][names[0]]['fb'];
+                  facebook_link.href = data[pos][names[i]]['fb'];
                   {
                     var facebook_icon = document.createElement("i");
                     facebook_icon.className = "fa fa-facebook";
@@ -64,7 +64,7 @@ for (pos in data) {
                 var link_li = document.createElement("li");
                 {
                   var link_link = document.createElement("a");
-                  link_link.href = data[pos][names[0]]['linkedin'];
+                  link_link.href = data[pos][names[i]]['linkedin'];
                   {
                     var link_icon = document.createElement("i");
                     link_icon.className = "fa fa-linkedin";
