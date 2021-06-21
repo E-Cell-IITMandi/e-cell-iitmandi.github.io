@@ -22,26 +22,18 @@
   font-weight: bold;
   color: #bdbfc7;
 }
-.flex-box-1 {
+
+.about-us-list-item {
   display: flex;
   margin: 1rem 0;
   border-left: solid 5px #9f28f3;
 }
-.flex-box-2 {
-  display: flex;
-  border-left: solid 5px #ff4ab7;
-  margin: 1rem 0;
+
+.about-us-list-item:hover{
+  transition: 0.2s ease-in-out;
+  transform: scale(1.05);
 }
-.flex-box-3 {
-  display: flex;
-  border-left: solid 5px #00d2fc;
-  margin: 1rem 0;
-}
-.flex-box-4 {
-  display: flex;
-  margin: 1rem 0;
-  border-left: solid 5px #fed90e;
-}
+
 .commanp {
   background: #ffffff;
   padding: 0.5rem;
@@ -52,42 +44,16 @@
   font-weight: 700;
   padding: 1rem 0.1rem;
   box-shadow: 20px 20px 20px #e3e6e9;
-  border-radius: 3%;
 }
 
-.p1 {
-  color: #9f28f3;
-
+.special-border {
+  color: var(--color-bostonblue);
   margin: 0;
   text-align: center;
   font-size: 1.3rem;
   font-weight: 700;
-}
-.special-border {
   padding: 10px;
   border: dotted 5px #f1f0f1;
-}
-.p2 {
-  color: #ff4ab7;
-
-  margin: 0;
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 700;
-}
-.p3 {
-  color: #00d2fc;
-  margin: 0;
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 700;
-}
-.p4 {
-  color: #fed90e;
-  margin: 0;
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 700;
 }
 
 .extracss {
