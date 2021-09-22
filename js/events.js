@@ -1,5 +1,6 @@
 function createEventString(event) {
   const defaultPoster = "https://e-cell-iitmandi.github.io/E-Cell_Website/posters/bob2.jpeg";
+  const defaultWebsiteUrl = "";
 
   console.log("eve", event);
 
@@ -16,7 +17,7 @@ function createEventString(event) {
               </p>
             </div>
             <div class="event-link">
-              <a href="">More Info</a>
+              <a href="` + (event.websiteUrl ? event.websiteUrl : defaultWebsiteUrl) + `">More Info</a>
             </div>
           </div>
         </div>
