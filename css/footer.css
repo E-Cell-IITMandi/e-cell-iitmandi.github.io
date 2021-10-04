@@ -1,67 +1,67 @@
 .footer {
-  color: black;
-  width: 100%;
-  margin: 0px auto;
-  padding: 40px 0;
-  overflow-x: hidden;
+	color: black;
+	width: 100%;
+	margin: 0px auto;
+	padding: 40px 0;
+	overflow-x: hidden;
 }
 
 .footer-logo {
 	padding-left: 20px;
 }
 
-.footer-logo img{
+.footer-logo img {
 	width: 30%;
 }
 
-.footer-inner-title{
+.footer-inner-title {
 	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 30px;
 	position: relative;
 }
 
-.footer-inner-title:after{
+.footer-inner-title:after {
 	position: absolute;
-    content: "";
-    top: 35px;
-    left: 0px;
-    width: 40px;
-    height: 2px;
-    font-style: normal;
-    background: #318bc5;
-    transition: all 0.35s ease-out;
+	content: "";
+	top: 35px;
+	left: 0px;
+	width: 40px;
+	height: 2px;
+	font-style: normal;
+	background: #318bc5;
+	transition: all 0.35s ease-out;
 }
 
 .footer-inner-content ul {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-.footer-inner-content ul li{
+.footer-inner-content ul li {
 	position: relative;
-    margin-left: 20px;
+	margin-left: 20px;
 }
 
-.footer-inner-content ul li a{
+.footer-inner-content ul li a {
 	color: #000000;
-    display: block;
-    font-weight: 500;
-    transition: all 0.35s ease-out;
-    text-decoration: none;
+	display: block;
+	font-weight: 500;
+	transition: all 0.20s ease-out;
+	text-decoration: none;
 }
 
 .footer-inner-content ul li a:hover {
 	color: #318bc5;
 }
 
-.footer-social-media ul{
+.footer-social-media ul {
 	list-style: outside none none;
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-.footer-social-media ul li{
+.footer-social-media ul li {
 	position: relative;
 	width: 30px;
 	height: 30px;
@@ -73,16 +73,26 @@
 
 }
 
-.footer-social-media ul li i{
+.footer-social-media ul li i {
 	margin-top: 8px;
 }
 
-.footer-social-media ul li:hover{
+.footer-social-media ul li:hover {
+	transition: all 0.12s ease-in;
 	background-color: #318bc5;
 	color: #fff;
+	transform: scale(1.1);
 }
 
-.footer-social-media p{
+.insta-pop-out:hover {
+	background-color: rgb(255, 80, 80) !important;
+}
+
+.yt-pop-out:hover {
+	background-color: red !important;
+}
+
+.footer-social-media p {
 	margin: 0 0 0 35px;
 	position: absolute;
 	bottom: 5px;
@@ -90,16 +100,20 @@
 	color: black;
 }
 
-.footer-inner-content input{
+.footer-inner-content input {
 	background-color: #f0f0f0;
 	border: 1px solid #000;
 	padding: 5px 1px;
 	font-size: 20px;
 }
 
+.footer-inner-content ul li a:hover {
+	transform: scale(1.02);
+}
+
 .footer-button {
 	margin-top: 10px;
-	border-radius: 0;
+	border-radius: 30px;
 	background-color: #318bc5;
 	color: #fff;
 	font-size: 20px;
