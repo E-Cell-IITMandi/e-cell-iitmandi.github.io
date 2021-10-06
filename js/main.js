@@ -14,3 +14,21 @@ document.querySelector("#mobile-toggle-btn").addEventListener("click" , () => {
         headerMenu.classList.add("menu-show");
     }
 });
+
+$(window).on("load", function() {
+    $(window).scroll(function() {
+        var windowBottom = $(this).scrollTop()+$(this).innerHeight();
+        $("section").each(function () {
+            var objectBottom = $(this).offset().top;
+            if(objectBottom < windowBottom-200) {
+                if($(this).css("opacity") == 0) {
+                    $(this).fadeTo(500, 1);
+                }
+            } else {
+                if($(this).css("opacity") == 1) {
+                    $(this).fadeTo(500, 0);
+                }
+            }
+        });
+    }).scroll();
+});

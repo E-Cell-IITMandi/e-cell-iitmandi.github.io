@@ -9,9 +9,13 @@ for (pos in data) {
   }
   var names = Object.keys(data[pos]);
   var container = document.createElement("section"); //Create section tag for each position
-  container.id = pos
+  console.log(pos);
+  container.id = pos;
+  if(pos === "Faculty Advisor") {
+    container.id = "Faculty";
+  }
   {
-    var con = document.createElement("div")
+    var con = document.createElement("div");
     con.className = "con-1";
     {
       var head = document.createElement("div");
@@ -19,11 +23,11 @@ for (pos in data) {
       {
         var h2 = document.createElement("h2");
         h2.className = "heading-36";
-        var position = document.createTextNode(pos)
-        h2.appendChild(position)
-        head.appendChild(h2)
+        var position = document.createTextNode(pos);
+        h2.appendChild(position);
+        head.appendChild(h2);
       }
-      con.appendChild(head)
+      con.appendChild(head);
       var members = document.createElement("div");
       members.className = "members";
       {
@@ -45,7 +49,7 @@ for (pos in data) {
               per_name.appendChild(text);
               person_details.appendChild(per_name);
 
-              var social = document.createElement("ul")
+              var social = document.createElement("ul");
               social.className = "person_social_media";
               {
                 var facebook_li = document.createElement("li");
@@ -78,12 +82,30 @@ for (pos in data) {
             }
             person.appendChild(person_details);
           }
-          members.appendChild(person)
+          members.appendChild(person);
         }
       }
-      con.appendChild(members)
+      con.appendChild(members);
     }
-    container.appendChild(con)
+    container.appendChild(con);
   }
-  divtag.appendChild(container)
+  divtag.appendChild(container);
 }
+
+$(window).on("load", function() {
+  $(window).scroll(function() {
+      var windowBottom = $(this).scrollTop()+$(this).innerHeight();
+      $("section").each(function () {
+          var objectBottom = $(this).offset().top;
+          if(objectBottom < windowBottom) {
+              if($(this).css("opacity") == 0) {
+                  $(this).fadeTo(500, 1);
+              }
+          } else {
+              if($(this).css("opacity") == 1) {
+                  $(this).fadeTo(500, 0);
+              }
+          }
+      });
+  }).scroll();
+});

@@ -126,6 +126,7 @@
 
     <div id="team">
     </div>
+    <script type="text/javascript" src="js/jquery-min-3.6.0.js"></script>
     <script type="text/javascript" src="js/team.js"></script>
     <!-- All team members will be added using team.js file and extracting data from team.yaml -->
 
@@ -152,14 +153,71 @@
   </main>
 
   <footer>
-    <div class="con-1">
-      Footer
+    <div class="footer con-2 flex">
+      <div class="col-3 flex-c footer-logo">
+        <img src="images/ecell.png">
+        <p>edc@students.iitmandi.ac.in</p>
+        <p><b>IIT Mandi, Kamand,<br>Himachal Pradesh</b></p>
+      </div>
+      <div class="col-3 flex-c">
+        <div class="footer-inner-title">
+          Sitemap
+        </div>
+        <div class="footer-inner-content">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/team.html">Team</a></li>
+            <li><a href="/leaderboard.html">Leaderboard</a></li>
+            <li><a href="/#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3 flex-c">
+        <div class="footer-inner-title">
+          Social Media links
+        </div>
+        <div class="footer-social-media">
+          <ul>
+            <li>
+              <i class="fab fa-facebook-f"></i>
+              <p>Facebook</p>
+            </li>
+            <li class="insta-pop-out">
+              <i class="fab fa-instagram"></i>
+              <p>Instagram</p>
+            </li>
+            <li>
+              <i class="fab fa-linkedin-in"></i>
+              <p>Linkedin</p>
+            </li>
+            <li class="yt-pop-out">
+              <i class="fab fa-youtube"></i>
+              <p>YouTube</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3 flex-c">
+        <div class="footer-inner-title">
+          News Letter
+        </div>
+        <div class="footer-inner-content">
+          <p>E-Cell is a holographic abbreviation adopted by the entrepreneurship club of IIT Mandi.</p>
+          <input type="text" name="text" placeholder="Enter your Email">
+          <button class="footer-button">Subscribe</button>
+        </div>
+      </div>
     </div>
   </footer>
-
+  <!-- <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 280">
+    <g fill="#fff" fill-rule="nonzero">
+      <path
+        d="M1919.999998 0v29.7237781c-223.98059 145.4796669-526.68468 188.5528329-908.11226 129.2194999C630.460153 99.609945 293.299854 122.962185.406838 229V0h1919.59316z">
+      </path>
+    </g>
+  </svg> -->
   <script>
-    // Add code for adding members here
-
+    $("#Faculty").append('<div id="blue"><svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 280"><g fill="#fff" fill-rule="nonzero"><path d="M1919.999998 0v29.7237781c-223.98059 145.4796669-526.68468 188.5528329-908.11226 129.2194999C630.460153 99.609945 293.299854 122.962185.406838 229V0h1919.59316z"></path></g></svg></div>')
   </script>
 
 </body>
