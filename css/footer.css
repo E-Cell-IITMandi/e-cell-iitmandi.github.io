@@ -47,6 +47,7 @@
 	color: #000000;
 	display: block;
 	font-weight: 500;
+	font-size: large;
 	transition: all 0.20s ease-out;
 	text-decoration: none;
 }
@@ -65,12 +66,11 @@
 	position: relative;
 	width: 30px;
 	height: 30px;
-	border: 1px solid #000;
-	border-radius: 50%;
+	border: 2px solid rgb(75, 74, 74);
+	border-radius: 20%;
 	text-align: center;
-	margin: 8px 0;
+	margin: 8px 5px;
 	cursor: pointer;
-
 }
 
 .footer-social-media ul li i {
@@ -83,7 +83,6 @@
 	color: #fff;
 	transform: scale(1.1);
 }
-
 .insta-pop-out:hover {
 	background-color: rgb(255, 80, 80) !important;
 }
@@ -117,7 +116,7 @@
 	background-color: #318bc5;
 	color: #fff;
 	font-size: 20px;
-	font-weight: 100;
+	font-weight: 500;
 }
 
 @media (max-width: 512px) {
@@ -130,4 +129,14 @@
 		margin-top: 24px;
 		margin-bottom: 16px;
 	}
+}
+li>p{
+  color: black;
+  font-weight: 500;
+	padding: 2px;
+}
+#newsletter{
+padding: 10px;
+border-radius: 5px;
+margin: 10px 0px;
 }
