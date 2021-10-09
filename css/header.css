@@ -7,8 +7,8 @@ header {
   transition: background-color 0.1s ease-in 0s, box-shadow 0.15s ease-in 0s;
   will-change: background-color, box-shadow;
   box-shadow: rgb(0 0 0 / 0%) 0px 2px 4px 0px;
-/* Add on scroll */
-/* box-shadow: 0 0 9px 0 rgb(0 0 0 / 10%);*/
+  /* Add on scroll */
+  /* box-shadow: 0 0 9px 0 rgb(0 0 0 / 10%);*/
 }
 
 #header-menu {
@@ -60,7 +60,9 @@ header {
   position: relative;
   display: block;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 .nav-link:before {
@@ -92,8 +94,12 @@ header {
 }
 
 @keyframes headerDown {
-  from {transform: translateY(-120px);}
-  to {transform: translateY(0);}
+  from {
+    transform: translateY(-120px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 996px) {
