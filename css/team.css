@@ -17,34 +17,36 @@
 .person {
   display: flex;
   position: relative;
-  border: 2px solid #eee;
+  border: 2px solid rgb(207, 205, 205);
   padding: 24px 10px 6px 10px;
   margin: 28px 20px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 10px;
   transition: 0.3s;
   min-width: 15%;
   background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 50px -12px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .person:hover {
-  border: 2px solid transparent;
-  box-shadow: 0px 2px 20px 0px rgb(0 0 0 / 10%);
-  transform: scale(1.01);
+  border: 2px solid rgb(160, 159, 159);
+  transform: scale(1.05);
 }
 
 .person_photo {
   border-radius: 50%;
-  box-shadow: 0 10px 50px rgb(168, 223, 245);
+  border: 2px solid rgb(139, 137, 137);
 }
 
 .person_name {
   margin-top: 0.5em;
   margin-bottom: 0px;
   /* margin-top: 0.5px; */
-  font-family: 'Baloo Paaji 2', cursive;
+  font-family: "Baloo Paaji 2", cursive;
   font-size: 2em;
 }
 
@@ -73,6 +75,7 @@
 }
 
 .person_social_media a:before {
+  border: 2px solid rgb(78, 119, 131);
   transform: scale(1);
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
