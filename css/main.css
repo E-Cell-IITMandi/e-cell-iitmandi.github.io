@@ -77,6 +77,7 @@ button, .btn, .btn-outlined {
 
 button:hover, .btn:hover, .btn-outlined:hover {
   transform: translateY(-3px);
+  border-color: #0764af;
 }
 
 .btn {
