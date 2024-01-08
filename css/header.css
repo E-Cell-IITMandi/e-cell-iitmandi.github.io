@@ -3,7 +3,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
+  background-color: #000000;
   transition: background-color 0.1s ease-in 0s, box-shadow 0.15s ease-in 0s;
   will-change: background-color, box-shadow;
   box-shadow: rgb(0 0 0 / 0%) 0px 2px 4px 0px;
@@ -60,7 +61,8 @@ header {
   position: relative;
   display: block;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.9);
+  /* color: rgba(0, 0, 0, 0.9); */
+  color: #ffffff;
   font-size: 1.25rem;
   font-weight: 600;
 }
@@ -72,13 +74,15 @@ header {
   height: 2px;
   bottom: -2px;
   left: 0;
-  background-color: var(--color-denim--dark);
+  /* background-color: var(--color-denim--dark); */
+  background-color: #FEDC4C;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
 }
 
 .nav-link:hover {
-  color: var(--color-denim--dark);
+  /* color: var(--color-denim--dark); */
+  color: #FEDC4C;
 }
 
 .nav-link:hover:before {

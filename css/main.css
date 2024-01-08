@@ -29,6 +29,7 @@ html {
   padding: 0;
   scroll-behavior: smooth;
   font-family: 'Open Sans', sans-serif;
+  background-color: #000000;
 }
 
 .w-100 {
@@ -70,27 +71,32 @@ button, .btn, .btn-outlined {
   transition: transform 0.4s ease 0s, background-color, border-color, background, color;
   border-width: 1px;
   border-style: solid;
-  border-color: var(--color-denim);
+  /* border-color: var(--color-denim); */
+  border-color: #FEDC4C;
   border-image: initial;
   border-radius: 25px;
 }
 
 button:hover, .btn:hover, .btn-outlined:hover {
   transform: translateY(-3px);
-  border-color: #0764af;
+  /* border-color: #0764af; */
+  border-color:#FEDC4C ;
 }
 
 .btn {
   color: rgb(255, 255, 255);
-  background: var(--color-denim);
+  /* background: var(--color-denim); */
+  background: #FEDC4C;
 }
      
 .btn:hover {
-  background: var(--color-denim--dark);
+  /* background: var(--color-denim--dark); */
+  background: #FEDC4C;
 }
 
 .btn-outlined {
-  color: var(--color-denim);
+  /* color: var(--color-denim); */
+  color: #FEDC4C;
   background: transparent;
 }
 
@@ -124,16 +130,30 @@ section {
   letter-spacing: 0.023em;
   margin: 0px;
   padding: 0px;
-  color: rgb(42, 48, 57);
+  /* color: rgb(42, 48, 57); */
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.heading2 {
+  text-align: center;
+  margin: 0 auto 56px auto;
+  letter-spacing: 0.023em;
+  margin: 0px;
+  padding: 0px;
+  /* color: rgb(42, 48, 57); */
+
+  color: #000000;
   line-height: 1.6;
 }
 
 .heading p {
   margin-top: -16px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6;
   font-weight: 400;
-  color: rgb(70, 78, 91);
+  /* color: rgb(70, 78, 91); */
+  color: #ffffff;
 }
 .con-1 {
   width: 100%;
@@ -156,7 +176,8 @@ section {
   font-size: 16px;
   line-height: 1.6;
   font-weight: 400;
-  color: rgb(70, 78, 91);
+  /* color: rgb(70, 78, 91); */
+  color: #000000;
 }
 
 @media (max-width: 1148px) {

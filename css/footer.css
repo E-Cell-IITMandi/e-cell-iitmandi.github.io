@@ -1,5 +1,6 @@
 .footer {
-	color: black;
+	/* color: black; */
+	color: #f0f0f0;
 	width: 100%;
 	margin: 0px auto;
 	padding: 40px 0;
@@ -7,11 +8,12 @@
 }
 
 .footer-logo {
+	padding-top: 20px;
 	padding-left: 20px;
 }
 
 .footer-logo img {
-	width: 30%;
+	width: 40%;
 }
 
 .footer-inner-title {
@@ -29,7 +31,7 @@
 	width: 40px;
 	height: 2px;
 	font-style: normal;
-	background: #318bc5;
+	background: #fad225;
 	transition: all 0.35s ease-out;
 }
 
@@ -44,7 +46,7 @@
 }
 
 .footer-inner-content ul li a {
-	color: #000000;
+	color: #f0f0f0;
 	display: block;
 	font-weight: 500;
 	font-size: large;
@@ -53,7 +55,7 @@
 }
 
 .footer-inner-content ul li a:hover {
-	color: #318bc5;
+	color: #fad225;
 }
 
 .footer-social-media ul {
@@ -66,7 +68,7 @@
 	position: relative;
 	width: 30px;
 	height: 30px;
-	border: 2px solid rgb(75, 74, 74);
+	border: 2px solid #f0f0f0;
 	border-radius: 20%;
 	text-align: center;
 	margin: 8px 5px;
@@ -96,7 +98,7 @@
 	position: absolute;
 	bottom: 5px;
 	line-height: 20px;
-	color: black;
+	color: #f0f0f0;
 }
 
 .footer-inner-content input {
@@ -111,7 +113,7 @@
 }
 
 .footer-button {
-	margin-top: 10px;
+	margin-top: 20px;
 	border-radius: 30px;
 	background-color: #318bc5;
 	color: #fff;
