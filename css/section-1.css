@@ -2,12 +2,14 @@
   display: block;
   position: relative;
   z-index: 10;
-  background-color: rgb(215, 240, 250);
+  /* background-color: rgb(215, 240, 250); */
+  background-color: #000000;
   background-size: cover;
   background-repeat: no-repeat;
   will-change: background-image;
-  background-image: linear-gradient(0deg, rgb(215, 240, 250) -20%, rgb(255, 255, 255) 85%, rgb(255, 255, 255) 100%);
-  color: rgb(42, 48, 57);
+  background-image: linear-gradient(0deg, #F3D65E -30%,  #000000 85%, #000000  100%);
+  /* color: rgb(42, 48, 57); */
+  color: #ffffff;
   opacity: 0.999;
   padding-top: 50px;
 }
@@ -46,7 +48,8 @@
   font-size: 16px;
   line-height: 1.6;
   font-weight: 400;
-  color: rgb(70, 78, 91);
+  /* color: rgb(70, 78, 91); */
+  color: #ffffff;
 }
 
 .top-1-buttons {
